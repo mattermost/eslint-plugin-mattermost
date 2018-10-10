@@ -1,0 +1,12 @@
+{
+  "name": "eslint-config-mattermost",
+  "version": "1.0.0",
+  "description": "ESLint configuration used by Mattermost",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattermost/eslint-config-mattermost.git"
+  },
+  "author": "Mattermost, Inc.",
+  "license": "Apache 2.0",
+  "private": true
+}

@@ -1,0 +1,18 @@
+# MacOS
+.DS_Store
+
+# NPM
+node_modules
+npm-debug.log
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+tags
+
+# VSCode
+.vscode
