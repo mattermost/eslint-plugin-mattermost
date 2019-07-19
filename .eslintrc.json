@@ -281,6 +281,7 @@
     "no-process-env": 2,
     "no-process-exit": 2,
     "no-proto": 2,
+    "no-prototype-builtins": 1,
     "no-redeclare": 2,
     "no-return-assign": [
       2,
