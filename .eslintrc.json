@@ -477,7 +477,7 @@
   },
   "overrides": [
     {
-      "files": ["*.test.js", "*.test.jsx", "tests/**"],
+      "files": ["*.test.js", "*.test.jsx", "*.test.ts", "*.test.tsx", "tests/**"],
       "globals": {
         "after": true,
         "afterAll": true,
