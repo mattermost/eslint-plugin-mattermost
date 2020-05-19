@@ -6,7 +6,7 @@
     "react"
   ],
   "rules": {
-       "react/display-name": [
+    "react/display-name": [
       0,
       {
         "ignoreTranspilerName": false
@@ -39,7 +39,7 @@
       2,
       "never"
     ],
-    "react/jsx-filename-extension": 2,
+    "react/jsx-filename-extension": 0,
     "react/jsx-first-prop-new-line": [
       2,
       "multiline"
