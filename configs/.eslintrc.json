@@ -474,7 +474,8 @@
         "exceptRange": false,
         "onlyEquality": false
       }
-    ]
+    ],
+    "@typescript-eslint/member-delimiter-style": 2
   },
   "overrides": [
     {
