@@ -14,7 +14,4 @@ module.exports = {
             ],
         },
     },
-    rules: {
-        'no-dispatch-getstate': require('./rules/no-dispatch-getstate'),
-    },
 };
