@@ -164,6 +164,7 @@
       }
     ],
     "mattermost/no-dispatch-getstate": 2,
+    "mattermost/use-external-link": 2,
     "max-lines": [
       1,
       {
