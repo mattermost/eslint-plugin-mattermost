@@ -11,6 +11,7 @@
   "private": true,
   "dependencies": {
     "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-mattermost": "github:mattermost/eslint-plugin-mattermost#f8ca36be5ceb398a9b1c343251f19d27c89eeb6b",
     "jsx-ast-utils": "^3.3.3"
   }
 }
