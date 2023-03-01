@@ -19,7 +19,7 @@ create: (context) => {
                 const typeCheck = 'a';
                 const nodeType = elementType(node);
                 // Only check anchor elements
-                if (typeCheck !== nodeType) {
+                if (!nodeType || typeCheck !== nodeType) {
                     return;
                 }
 
