@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-mattermost",
+  "name": "eslint-plugin-mattermost",
   "version": "1.0.0",
   "description": "ESLint configuration used by Mattermost",
   "repository": {
@@ -8,5 +8,9 @@
   },
   "author": "Mattermost, Inc.",
   "license": "Apache 2.0",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "jsx-ast-utils": "^3.3.3"
+  }
 }
