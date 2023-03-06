@@ -31,7 +31,7 @@ module.exports =  {
                 const hasSpreadOperator = attributes.some((prop) => prop.type === 'JSXSpreadAttribute');
 
                 // When there is no target value at all, this rule does not apply:
-                if (!hasBlankTarget || hasSpreadOperator) {
+                if (!hasBlankTarget && hasSpreadOperator) {
                     return;
                 }
 
