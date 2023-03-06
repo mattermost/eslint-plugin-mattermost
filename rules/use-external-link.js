@@ -26,12 +26,9 @@ module.exports =  {
                 const values = propsToValidate.map((prop) => astUtils.getPropValue(astUtils.getProp(node.attributes, prop)));
                 // Checks if the target attribute is set to _blank (ie, is an external link)
                 const hasBlankTarget = values.some((value) => value != null && value === '_blank');
-                // Need to check for spread operator as props can be spread onto the element
-                // leading to an incorrect validation error.
-                const hasSpreadOperator = attributes.some((prop) => prop.type === 'JSXSpreadAttribute');
 
                 // When there is no target value at all, this rule does not apply:
-                if (!hasBlankTarget && hasSpreadOperator) {
+                if (!hasBlankTarget) {
                     return;
                 }
 
