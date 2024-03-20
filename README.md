@@ -1,4 +1,10 @@
+
+
 # eslint-plugin-mattermost
+
+**This package has been replaced by [`@mattermost/eslint-plugin`](https://www.npmjs.com/package/@mattermost/eslint-plugin). It's source code is located [here](https://github.com/mattermost/mattermost/tree/master/webapp/platform/eslint-plugin).**
+
+----
 
 An ESLint plugin containing the configuration used by Mattermost as well as support for custom rules specific to the Mattermost code base.
 
